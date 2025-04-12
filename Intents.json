@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "chat g. p. t",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancela",
+                        "cancela la busqueda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ChatIntent",
+                    "slots": [
+                        {
+                            "name": "query",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "di me {query}",
+                        "me puedes decir {query}",
+                        "responde {query}",
+                        "respondeme {query}",
+                        "dime {query}",
+                        "pregunta {query}"
+                    ]
+                },
+                {
+                    "name": "PauseIntent",
+                    "slots": [],
+                    "samples": [
+                        "pausa",
+                        "para",
+                        "pausa la respuesta",
+                        "interrumpe lo que estás diciendo",
+                        "detén la respuesta"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
