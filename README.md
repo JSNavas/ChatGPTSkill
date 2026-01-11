@@ -1,5 +1,5 @@
 # ChatGPTSkill
-Primero de debe crear la skill en el alexa developer console de Amazon, luego en el JSON Editor se debe agregar el codigo ubicado en el Intents.json y luego compilar
+Primero se debe crear la skill en el Alexa Developer Console de Amazon, luego, en el JSON Editor se debe agregar el código ubicado en el Intents.json y luego compilar
 
 The OpenAI API key is required to access the OpenAI API. You can obtain an API key by signing up for an account on the OpenAI website.
 OPENAI_API_KEY=
